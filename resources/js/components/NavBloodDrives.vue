@@ -21,7 +21,7 @@ const isActive = (href: string, currentUrl: string) => {
 
 <template>
   <SidebarGroup class="px-2 py-0">
-    <SidebarGroupLabel>Navigation</SidebarGroupLabel>
+    <SidebarGroupLabel>Upcoming Blood Drives</SidebarGroupLabel>
     <SidebarMenu>
       <SidebarMenuItem v-for="item in items" :key="item.title">
         <SidebarMenuButton
